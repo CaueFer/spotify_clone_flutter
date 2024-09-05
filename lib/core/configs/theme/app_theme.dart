@@ -1,4 +1,4 @@
-import 'package:finance_app/core/configs/theme/app_colors.dart';
+import 'package:spotify_clone/core/configs/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 
 class AppTheme {
@@ -7,10 +7,11 @@ class AppTheme {
     primaryColor: AppColors.primary,
     scaffoldBackgroundColor: AppColors.lightBackground,
     brightness: Brightness.light,
+    fontFamily: 'Satoshi',
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         backgroundColor: AppColors.primary,
-        textStyle: TextStyle(
+        textStyle: const TextStyle(
           fontSize: 20, 
           fontWeight: FontWeight.bold,
         ),
@@ -26,6 +27,7 @@ class AppTheme {
     primaryColor: AppColors.primary,
     scaffoldBackgroundColor: AppColors.darkBackground,
     brightness: Brightness.dark,
+    fontFamily: 'Satoshi',
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         backgroundColor: AppColors.primary,
