@@ -1,4 +1,4 @@
-# finance_app
+# SpotifY Clone
 
 A new Flutter project.
 
